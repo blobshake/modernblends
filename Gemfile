@@ -10,7 +10,9 @@ group :development, :test do
 end
 
 group :production do
-gem "pg", "~> 0.17.1"
+  gem "pg", "~> 0.17.1"
+  gem 'rails_log_stdout'         
+  gem 'rails3_serve_static_assets'
 end
 
 group :assets do
