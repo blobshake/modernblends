@@ -1,2 +1,13 @@
 <h1>Home#login</h1>
 <p>Find me in app/views/home/login.html.erb</p>
+<div id="login_page" />
+<%= form_tag do %>
+  <div class="field">
+    <%= text_field_tag :email, params[:email], placeholder: 'email' %>
+  </div>
+  <div class="field">
+    <%= password_field_tag :password %>
+  </div>
+  <div><%= submit_tag "Log In",:class => 'sub' </div> 
+<% end %>
+</div>

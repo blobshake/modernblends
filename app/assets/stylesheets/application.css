@@ -58,6 +58,44 @@ body {
   color:black;
   border-bottom:1px solid black;
 }
+#newuserform{
+  margin-top:25px;
+}
+
+::-webkit-input-placeholder {
+   color: grey;
+   font-family:avenir;
+   font-weight:lighter;
+   padding-left:25px;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: grey;
+   font-family:avenir;
+   font-weight:lighter;
+     padding-left:25px;
+
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   font-family:avenir;
+   font-weight:lighter; 
+     padding-left:25px;
+
+}
+
+:-ms-input-placeholder {  
+   
+
+}
+
+div.field input:focus {
+  font-family:avenir;
+   font-weight:lighter; 
+     padding-left:25px;
+}
+
+
 .menu_item:hover{
    color:#5b5b5b;
   background:#def1f8;

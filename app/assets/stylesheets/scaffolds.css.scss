@@ -11,7 +11,9 @@ p, ol, ul, td {
   font-size: 14px;
   line-height: 16px;
 }
-
+div.field sub {
+  background-color:black;
+}
 pre {
   background-color: #eee;
   padding: 10px;
@@ -20,7 +22,12 @@ pre {
 
 div.field input {
   height:33px;
-  width:220px;
+  width:35%;
+  font-size:16px;
+ }
+#login_page.field input {
+  height:33px;
+  width:35%;
   font-size:16px;
  }
 
@@ -38,6 +45,16 @@ a {
 div {
   &.field, &.actions {
     margin-bottom: 10px;
+  }
+}
+
+div {
+  &.actions input{
+    background-color:black;
+    width:250px;
+    height:50px;
+    font-size:18px;
+    color:white;
   }
 }
 

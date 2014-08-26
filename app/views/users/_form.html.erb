@@ -12,26 +12,21 @@
   <% end %>
 
   <div class="field">
-    <%= f.label :first_name %><br>
-    <%= f.text_field :first_name %>
+    <%= f.text_field :first_name, placeholder:'First name' %>
   </div>
   <div class="field">
-    <%= f.label :last_name %><br>
-    <%= f.text_field :last_name %>
+    <%= f.text_field :last_name, placeholder:'Last name'%>
   </div>
   <div class="field">
-    <%= f.label :email %><br>
-    <%= f.text_field :email %>
+    <%= f.text_field :email, placeholder:'Email' %>
   </div>
   <div class="field">
-    <%= f.label :password %><br>
-    <%= f.text_field :password %>
+    <%= f.text_field :password, placeholder:'Password' %>
   </div>
   <div class="field">
-    <%= f.label :phone_number %><br>
-    <%= f.number_field :phone_number %>
+    <%= f.number_field :phone_number, placeholder:'phone-number' %>
   </div>
   <div class="actions">
-    <%= f.submit %>
+    <%= f.submit "Register" %>
   </div>
 <% end %>
