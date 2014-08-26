@@ -1,0 +1,17 @@
+<p>Today's Menu</p>
+<p> Estimated delivery time: 18 min </p>
+<div id="menu-nav">
+All | Espresso | Workout | Brain Power | Hangover *** Search ingredients
+</div>
+<% @menus.each do |menu| %>
+<div class="menu_item">
+   <img src="http://www.einsteinbros.com/sites/all/themes/einsteinbros/img/detail_images/low-fat-smoothies.png" height="250" width ="250">
+  <p> <%= menu.title %> </p>
+  <p> <%= menu.description %> </p>
+  <p> <%= menu.image_url %> </p>
+</div>
+<% end %>
+
+<div id="footer">
+<%= link_to 'Add New Menu Item +', new_menu_path %>
+<div>
